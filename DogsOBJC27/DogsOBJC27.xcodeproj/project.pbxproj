@@ -12,6 +12,8 @@
 		0C859A2822CD508400B6D6E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0C859A2722CD508400B6D6E9 /* Assets.xcassets */; };
 		0C859A2B22CD508400B6D6E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0C859A2922CD508400B6D6E9 /* LaunchScreen.storyboard */; };
 		0C859A2E22CD508400B6D6E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C859A2D22CD508400B6D6E9 /* main.m */; };
+		0C88D5C322CD528300D989CE /* AJDWBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5C222CD528300D989CE /* AJDWBreed.m */; };
+		0C88D5C622CD529400D989CE /* AJDWSubBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5C522CD529400D989CE /* AJDWSubBreed.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,10 @@
 		0C859A2A22CD508400B6D6E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0C859A2C22CD508400B6D6E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		0C859A2D22CD508400B6D6E9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0C88D5C122CD528300D989CE /* AJDWBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWBreed.h; sourceTree = "<group>"; };
+		0C88D5C222CD528300D989CE /* AJDWBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWBreed.m; sourceTree = "<group>"; };
+		0C88D5C422CD529400D989CE /* AJDWSubBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWSubBreed.h; sourceTree = "<group>"; };
+		0C88D5C522CD529400D989CE /* AJDWSubBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWSubBreed.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +110,10 @@
 		0C88D5BE22CD50FA00D989CE /* MODELS */ = {
 			isa = PBXGroup;
 			children = (
+				0C88D5C122CD528300D989CE /* AJDWBreed.h */,
+				0C88D5C222CD528300D989CE /* AJDWBreed.m */,
+				0C88D5C422CD529400D989CE /* AJDWSubBreed.h */,
+				0C88D5C522CD529400D989CE /* AJDWSubBreed.m */,
 			);
 			path = MODELS;
 			sourceTree = "<group>";
@@ -194,7 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C859A2E22CD508400B6D6E9 /* main.m in Sources */,
+				0C88D5C322CD528300D989CE /* AJDWBreed.m in Sources */,
 				0C859A2022CD508200B6D6E9 /* AppDelegate.m in Sources */,
+				0C88D5C622CD529400D989CE /* AJDWSubBreed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,7 +350,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z9AZ3J86W;
-				INFOPLIST_FILE = DogsOBJC27/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DogsOBJC27/RESOURCES/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,7 +367,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5Z9AZ3J86W;
-				INFOPLIST_FILE = DogsOBJC27/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/DogsOBJC27/RESOURCES/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
