@@ -14,6 +14,7 @@
 		0C859A2E22CD508400B6D6E9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C859A2D22CD508400B6D6E9 /* main.m */; };
 		0C88D5C322CD528300D989CE /* AJDWBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5C222CD528300D989CE /* AJDWBreed.m */; };
 		0C88D5C622CD529400D989CE /* AJDWSubBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5C522CD529400D989CE /* AJDWSubBreed.m */; };
+		0C88D5CA22CD57DF00D989CE /* AJDWBreedNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5C922CD57DF00D989CE /* AJDWBreedNetworkClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		0C88D5C222CD528300D989CE /* AJDWBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWBreed.m; sourceTree = "<group>"; };
 		0C88D5C422CD529400D989CE /* AJDWSubBreed.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWSubBreed.h; sourceTree = "<group>"; };
 		0C88D5C522CD529400D989CE /* AJDWSubBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWSubBreed.m; sourceTree = "<group>"; };
+		0C88D5C822CD57DF00D989CE /* AJDWBreedNetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWBreedNetworkClient.h; sourceTree = "<group>"; };
+		0C88D5C922CD57DF00D989CE /* AJDWBreedNetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWBreedNetworkClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +67,7 @@
 				0C88D5BE22CD50FA00D989CE /* MODELS */,
 				0C88D5BD22CD50F300D989CE /* VIEWS */,
 				0C88D5BC22CD50EA00D989CE /* CONTROLLERS */,
+				0C88D5C722CD578900D989CE /* NETWORKING */,
 				0C859A3422CD50A500B6D6E9 /* RESOURCES */,
 			);
 			path = DogsOBJC27;
@@ -130,6 +134,15 @@
 			children = (
 			);
 			path = "MODEL CONTROLLERS";
+			sourceTree = "<group>";
+		};
+		0C88D5C722CD578900D989CE /* NETWORKING */ = {
+			isa = PBXGroup;
+			children = (
+				0C88D5C822CD57DF00D989CE /* AJDWBreedNetworkClient.h */,
+				0C88D5C922CD57DF00D989CE /* AJDWBreedNetworkClient.m */,
+			);
+			path = NETWORKING;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,6 +219,7 @@
 				0C859A2E22CD508400B6D6E9 /* main.m in Sources */,
 				0C88D5C322CD528300D989CE /* AJDWBreed.m in Sources */,
 				0C859A2022CD508200B6D6E9 /* AppDelegate.m in Sources */,
+				0C88D5CA22CD57DF00D989CE /* AJDWBreedNetworkClient.m in Sources */,
 				0C88D5C622CD529400D989CE /* AJDWSubBreed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
