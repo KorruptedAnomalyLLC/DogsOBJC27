@@ -15,6 +15,9 @@
 		0C88D5C322CD528300D989CE /* AJDWBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5C222CD528300D989CE /* AJDWBreed.m */; };
 		0C88D5C622CD529400D989CE /* AJDWSubBreed.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5C522CD529400D989CE /* AJDWSubBreed.m */; };
 		0C88D5CA22CD57DF00D989CE /* AJDWBreedNetworkClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5C922CD57DF00D989CE /* AJDWBreedNetworkClient.m */; };
+		0C88D5CD22CD7A1F00D989CE /* AJDWBreedsListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5CC22CD7A1F00D989CE /* AJDWBreedsListTableViewController.m */; };
+		0C88D5D022CD7A3000D989CE /* AJDWSubBreedsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5CF22CD7A3000D989CE /* AJDWSubBreedsTableViewController.m */; };
+		0C88D5D322CD7A4A00D989CE /* AJDWImagesCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C88D5D222CD7A4A00D989CE /* AJDWImagesCollectionViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,12 @@
 		0C88D5C522CD529400D989CE /* AJDWSubBreed.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWSubBreed.m; sourceTree = "<group>"; };
 		0C88D5C822CD57DF00D989CE /* AJDWBreedNetworkClient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWBreedNetworkClient.h; sourceTree = "<group>"; };
 		0C88D5C922CD57DF00D989CE /* AJDWBreedNetworkClient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWBreedNetworkClient.m; sourceTree = "<group>"; };
+		0C88D5CB22CD7A1F00D989CE /* AJDWBreedsListTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWBreedsListTableViewController.h; sourceTree = "<group>"; };
+		0C88D5CC22CD7A1F00D989CE /* AJDWBreedsListTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWBreedsListTableViewController.m; sourceTree = "<group>"; };
+		0C88D5CE22CD7A3000D989CE /* AJDWSubBreedsTableViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWSubBreedsTableViewController.h; sourceTree = "<group>"; };
+		0C88D5CF22CD7A3000D989CE /* AJDWSubBreedsTableViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWSubBreedsTableViewController.m; sourceTree = "<group>"; };
+		0C88D5D122CD7A4A00D989CE /* AJDWImagesCollectionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AJDWImagesCollectionViewController.h; sourceTree = "<group>"; };
+		0C88D5D222CD7A4A00D989CE /* AJDWImagesCollectionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AJDWImagesCollectionViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +134,12 @@
 		0C88D5BF22CD510600D989CE /* VIEW CONTROLLERS */ = {
 			isa = PBXGroup;
 			children = (
+				0C88D5CB22CD7A1F00D989CE /* AJDWBreedsListTableViewController.h */,
+				0C88D5CC22CD7A1F00D989CE /* AJDWBreedsListTableViewController.m */,
+				0C88D5CE22CD7A3000D989CE /* AJDWSubBreedsTableViewController.h */,
+				0C88D5CF22CD7A3000D989CE /* AJDWSubBreedsTableViewController.m */,
+				0C88D5D122CD7A4A00D989CE /* AJDWImagesCollectionViewController.h */,
+				0C88D5D222CD7A4A00D989CE /* AJDWImagesCollectionViewController.m */,
 			);
 			path = "VIEW CONTROLLERS";
 			sourceTree = "<group>";
@@ -218,8 +233,11 @@
 			files = (
 				0C859A2E22CD508400B6D6E9 /* main.m in Sources */,
 				0C88D5C322CD528300D989CE /* AJDWBreed.m in Sources */,
+				0C88D5D022CD7A3000D989CE /* AJDWSubBreedsTableViewController.m in Sources */,
+				0C88D5CD22CD7A1F00D989CE /* AJDWBreedsListTableViewController.m in Sources */,
 				0C859A2022CD508200B6D6E9 /* AppDelegate.m in Sources */,
 				0C88D5CA22CD57DF00D989CE /* AJDWBreedNetworkClient.m in Sources */,
+				0C88D5D322CD7A4A00D989CE /* AJDWImagesCollectionViewController.m in Sources */,
 				0C88D5C622CD529400D989CE /* AJDWSubBreed.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
